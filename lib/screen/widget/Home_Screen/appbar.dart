@@ -1,9 +1,5 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:individual_project/controller/auth_controller.dart';
-import 'package:individual_project/screen/widget/Menu_List/Profile/profile_screen.dart';
 
 class AppBarWidget extends StatelessWidget {
   AppBarWidget({
@@ -13,7 +9,6 @@ class AppBarWidget extends StatelessWidget {
         super(key: key);
 
   final GlobalKey<ScaffoldState> _scaffoldKey;
-  final AuthController _authController = Get.put(AuthController());
 
   @override
   Widget build(BuildContext context) {

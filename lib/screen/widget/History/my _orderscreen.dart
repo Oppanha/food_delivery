@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:individual_project/controller/history_controller.dart';
-import 'package:individual_project/data/data.dart';
-import 'package:individual_project/model/history.dart';
 import 'package:individual_project/screen/widget/Home_Screen/Order/orderDetail.dart';
 
 class MyOrder extends StatelessWidget {

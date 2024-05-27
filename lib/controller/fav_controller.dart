@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:individual_project/data/data.dart';
-import 'package:individual_project/model/history.dart';
 import 'package:individual_project/repositary/repo_controller.dart';
 
 class FavController extends GetxController {
