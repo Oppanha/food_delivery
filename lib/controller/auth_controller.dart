@@ -18,12 +18,12 @@ class AuthController extends GetxController {
   RxBool showPassword = true.obs;
   var profileImagePath = ''.obs;
 
-  final Remail = TextEditingController();
-  final Rpassword = TextEditingController();
-  final Rusername = TextEditingController();
-  final Lemail = TextEditingController();
-  final RphoneNumber = TextEditingController();
-  final Lpassword = TextEditingController();
+  final Remail = TextEditingController(text: "Admin123@gmail.com");
+  final Rpassword = TextEditingController(text: "1111");
+  final Rusername = TextEditingController(text: "Admin");
+  final Lemail = TextEditingController(text: "Admin123@gmail.com");
+  final RphoneNumber = TextEditingController(text: "098765432");
+  final Lpassword = TextEditingController(text: "1111");
 
   @override
   void onInit() {
